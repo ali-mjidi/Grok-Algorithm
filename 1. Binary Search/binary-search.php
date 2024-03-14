@@ -20,5 +20,5 @@
     }
 
     $array = range(1, 100);
-    echo binary_search($array, 999);
+    echo binary_search($array, 99);
 ?>

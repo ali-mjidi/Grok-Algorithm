@@ -19,4 +19,4 @@ function binary_search(array, item) {
 }
 
 const array = Array.from(Array(100).keys()).map(x => ++x);
-console.log(binary_search(array, 999));
+console.log(binary_search(array, 99));
