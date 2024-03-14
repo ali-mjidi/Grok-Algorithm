@@ -7,9 +7,9 @@ function binary_search(array, item) {
         let guess = array[mid];
 
         if (guess < item) {
-            low = mid++;
+            low = ++mid;
         } else if (guess > item) {
-            high = mid--
+            high = --mid;
         } else {
             return mid;
         }
@@ -19,4 +19,4 @@ function binary_search(array, item) {
 }
 
 const array = Array.from(Array(100).keys()).map(x => ++x);
-console.log(binary_search(array, 99));
+console.log(binary_search(array, 999));
