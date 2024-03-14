@@ -1,8 +1,6 @@
 function linear_search(array, item) {
     for (index in array) {
-        if (array[index] === item) {
-            return index;
-        }
+        if (array[index] === item) return index;
     }
 
     return null;
