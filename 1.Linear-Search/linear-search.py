@@ -1,6 +1,6 @@
 def linear_search(array, item):
-    for index in array:
-        if (index == item):
+    for index in range(len(array)):
+        if (array[index] == item):
             return index
 
     return None
