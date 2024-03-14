@@ -8,9 +8,9 @@
             $guess = $array[$mid];
             
             if ($guess < $item) {
-                $low = $mid++;
+                $low = ++$mid;
             } else if ($guess > $item) {
-                $high = $mid--;
+                $high = --$mid;
             } else {
                 return $mid;
             }
@@ -20,6 +20,5 @@
     }
 
     $array = range(1, 100);
-    echo binary_search($array, 99);
-
+    echo binary_search($array, 999);
 ?>
