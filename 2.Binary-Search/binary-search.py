@@ -16,5 +16,5 @@ def binary_search(array, item):
     return None
 
 
-array = [i for i in range(1, 101)]
-print(binary_search(array, 99))
+my_array = [i for i in range(1, 101)]
+print(binary_search(my_array, 99))

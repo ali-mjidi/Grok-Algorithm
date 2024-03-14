@@ -19,6 +19,6 @@
         return NULL;
     }
 
-    $array = range(1, 100);
-    echo binary_search($array, 99);
+    $myArray = range(1, 100);
+    echo binary_search($myArray, 99);
 ?>

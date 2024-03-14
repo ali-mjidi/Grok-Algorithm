@@ -18,5 +18,5 @@ function binary_search(array, item) {
     return null;
 }
 
-const array = Array.from(Array(100).keys()).map(x => ++x);
-console.log(binary_search(array, 99));
+const myArray = Array.from(Array(100).keys()).map(x => ++x);
+console.log(binary_search(myArray, 99));
